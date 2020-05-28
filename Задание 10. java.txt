@@ -1,0 +1,47 @@
+1 Задание 
+
+import java.util.Random;
+import java.util.RandomAccess;
+
+class Main {
+  public static void main(String[] args) {
+    int[][] mas2d = new int [10][10];
+    Random rand = new Random();
+    for (int i = 0; i < 10; i++)
+    for (int j = 0; j< 10; j++)
+    mas2d[i][j] = rand.nextInt(1000);
+    
+    for (int i = 0; i < 10; i++)
+    {
+      for (int j = 0; j < 10; j++)
+      System.out.print(" "+ mas2d[i][j] + " ");
+    System.out.println();
+      
+    }
+    
+  }
+}
+3 Задание 
+
+import java.util.Random;
+import java.util.RandomAccess;
+ public static void main(String[] args) {
+    int[][] mas2d = new int [5][5];
+     int sum = 0;
+
+    for (int i=0;i < mas2d.length;i++)
+
+    {
+      for (int j=0;j < msa2d[i].length;j++)
+
+      {
+        sum = sum + mas[j][i];
+      }
+
+      System.out.print(" " + (i+1) + " " + sum);
+
+      sum = 0;
+
+    }
+
+  }
